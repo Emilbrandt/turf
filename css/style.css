@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: montserrat;
+}
+
+header {
+    background: url('../img/surfer.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: calc(50vh - 125px) 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+header img {
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+main {
+    background: #fff;
+}
+
+.container {
+    color: #0A1364;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.panel {
+    background: white;
+    padding: 25px 30px;
+    width: 50%;
+    margin: calc(50vh - 102px) auto;
+}
